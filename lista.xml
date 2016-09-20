@@ -1,0 +1,294 @@
+<? Xml version = "1.0" encoding = independiente "UTF-8" = "sí"?>
+
+<! ----------------------
+					Bienvenido a ADRYANLIST
+					
+					
+					www.adryanlist.info
+					
+					LISTA DE CANALES PARA KODI
+					
+					
+					
+					
+					
+					1. Instalar el Complemento AdryanList 
+						Descargar: http://adryanlist.org
+						Espejo Mediafire: http://bit.ly/addon-adryanlist
+					2.- También Puedes buscar el complemento de Robin Hood o Livestreamspro
+						2.1: en el Livestreamspro para contactar la url http://adryanlist.info
+					3.- Disfrutar! 
+					
+					
+					
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					AYUDA, SOPORTE, QUEJAS Y SUGERENCIAS
+					
+					
+					
+				
+					
+					
+					
+					http://blog.adryanlist.info
+->
+
+
+
+
+<Item>
+<Title> [COLOR celeste] [B] ADRYAN [/ COLOR] [COLOR lightslategray] [/ COLOR] [COLOR deepskyblue] LISTA [/ B] [/ COLOR] </ title>
+<Link> $ doregex [openDialog] </ link>
+<Regex>
+<Nombre> openDialog </ name>
+<Expres> <! [CDATA [# $ pyFunction
+xbmcaddon importación
+xbmcgui importación
+def GetLSProData (page_data, Cookie_Jar, m):
+    __addon__ = xbmcaddon.Addon ()
+    __addonname__ = __addon __. getAddonInfo ( "nombre")     
+    línea 1 = "Bienvenido a AdryanList"
+    línea 2 = "Te invitamos a que te Unas al Grupo de telegrama"
+    línea 3 = "http://telegram.me/adryanlist" 
+    xbmcgui.Dialog (). ok (__ addonname__, línea 1, línea 2, línea 3)
+    regreso 
+]]> </ Expres>
+<Página> </ page>
+<CookieJar> </ CookieJar>
+</ Regex>
+<Miniatura> http://adryanlist.org/adryan/img/adryanlist.jpg </ miniatura>
+<Fanart> http://adryanlist.org/adryan/img/fanart.jpg </ fanart>
+</ Item>
+
+ 
+<Item>
+<Title> [COLOR lightyellow] Esto Es [B] GRATIS [/ b] Pero PUEDES [B] Apoyarme o Agradecer [/ B], Mediante Una donacion al [COLOR lightslategray] PayPal [/ COLOR] adrian.bu [azul claro COLOR] @ gmail.com [/ COLOR] para Una café o una cerveza !!! ==== Si te gusta mi lista u me puede apoyar con una donación a [Blanco] paypal adrian.bu@gmail.com [/ COLOR] para tomar un café o una cerveza .. ===== [/ color] </ title>
+<Link> http: // ignorame </ link>
+<ExternalLink> http: // ignorame </ externalLink>
+<Miniatura> http://adryanlist.org/adryan/img/donacion.jpg </ miniatura>
+<Fanart> http://adryanlist.org/adryan/img/fanart.jpg </ fanart>
+</ Item>
+
+<Item>
+<Title> [COLOR lightslategray] Actualización: [COLOR Slategray] [B] 18 [/ B] [/ COLOR] • • septiembre 2016 [/ color] </ title>
+<Link> $ doregex [openDialog] </ link>
+<Regex>
+<Nombre> openDialog </ name>
+<Expres> <! [CDATA [# $ pyFunction
+xbmcaddon importación
+xbmcgui importación
+def GetLSProData (page_data, Cookie_Jar, m):
+    __addon__ = xbmcaddon.Addon ()
+    __addonname__ = __addon __. getAddonInfo ( "nombre")     
+    línea 1 = "Adryanlist"
+    línea 2 = "actualizado al dia 10 de Agosto 2016"
+    línea3 = "Dudas y Ayuda - http://telegram.me/adryanlist" 
+    xbmcgui.Dialog (). ok (__ addonname__, línea 1, línea 2, línea 3)
+    regreso 
+]]> </ Expres>
+<Página> </ page>
+<CookieJar> </ CookieJar>
+</ Regex> <miniatura> http://adryanlist.org/adryan/img/updated.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart.jpg </ fanart>
+</ Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Em>
+<Title> [COLOR cal] • [/ COLOR] [COLOR celeste] Keynote de Apple [/ COLOR] [COLOR lightslategray] (7 Septiembre 2016) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://i-cdn.phonearena.com/images/articles/255949-thumb/Apple.jpg </ miniatura> <fanart> http: // i -cdn.phonearena.com/images/articles/255949-thumb/Apple.jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/evento.m3u </ externalLink>
+</ Item>
+
+
+
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Deportes [/ COLOR] [COLOR lightslategray] (Deportes) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/deportes.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/deportes_adryan_list.xml </ externalLink>
+</ Item>
+
+
+<Tem>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] [B] ExtraTime [/ color] [/ B] [COLOR lightslategray] [I] Eventos del dia [/ i] [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/extratime.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/multicanales.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] [B] Peliculas [/ B] [/ COLOR] [COLOR lightslategray] (Películas) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/peliculas.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/pyt_vod.xml </ externalLink>
+</ Item>
+
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] [B] Series de TV [/ B] [/ COLOR] [COLOR lightslategray] (TV-Shows) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/series.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/gnula.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR celeste] [B] FUTMEX [/ B] [/ COLOR] [COLOR lightslategray] [I] de la televisión en línea 2016 [/ i] [/ color] </ title >
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/futmex_-21.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img /fanart.jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/futmex.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] España [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/esp.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/esp.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] México [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/mexico.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/mx.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] TotalPlay [/ COLOR] [COLOR lightslategray] [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/tp.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/totalp.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR verde claro] [B] IPTV [/ B] [/ COLOR] [COLOR lightslategray] [B] [Servidores del Mundo actualizado diariamente] [/ B] [/ COLOR] < / title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/iptv.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/iptv.xml </ externalLink>
+</ Item>
+
+
+
+
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Entretenimiento [/ COLOR] [COLOR celeste] [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/entretenimiento.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/ent.xml </ externalLink>
+</ Item>
+
+
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] [B] Televisión [celeste COLOR] 24/7 [/ color] [/ B] [/ COLOR] [COLOR lightslategray] r detrás! [/ Color] </ title>
+<Link> $ doregex [makelist] </ link>
+<Regex>
+<Nombre> makelist </ name>
+<Listrepeat> <! [CDATA [
+
+<Title> [makelist.param2] </ title>
+<Link> RTMP: // $ doregex [get_ip] / $ doregex vivir [get_key] app = $ doregex vivir [] get_key playpath = Live_ [makelist.param1] swfUrl = http:?? //vaughnlive.tv$doregex [Get_channel ] PAGEURL = http: //vaughnlive.tv/ [makelist.param1] vivo = true </ link>
+<Regex>
+<Nombre> get_ip </ name>
+<Expres> ([^;] *?);: </ Expres>    
+<Página> http://mvn.vaughnsoft.net/video/edge/vmn-live_ [makelist.param1]? 0.1.1.765_551-551-0.3609892260283232 </ page>                               
+<Árbitro> http://vaughnlive.tv/ </ árbitro>
+<Conexión> keep-alive </ conexión>
+<Agente> Mozilla / 5.0 </ agente>
+<Aceptar> Accept-Encoding = gzip, desinflar, text / html, application / xhtml + xml, application / xml; q = 0,9, image / webp, * / *; q = 0,8 </ aceptar>
+<CookieJar> </ CookieJar>
+</ Regex>
+<Regex>
+<Nombre> get_key </ name>
+<Expres> mvnkey - (*.?); </ Expres>  
+<Página> http://mvn.vaughnsoft.net/video/edge/vmn-live_ [makelist.param1]? 0.1.1.765_551-551-0.3609892260283232 </ page>                               
+<Árbitro> http://vaughnlive.tv/ </ árbitro>
+<Conexión> keep-alive </ conexión>
+<Agente> Mozilla / 5.0 </ agente>
+<Aceptar> Accept-Encoding = gzip, desinflar, text / html, application / xhtml + xml, application / xml; q = 0,9, image / webp, * / *; q = 0,8 </ aceptar>
+<CookieJar> </ CookieJar>
+</ Regex>
+<Regex>
+<Nombre> get_key2 </ name>
+<expres>;. *; (.? *) </ expres>  
+<Página> http://mvn.vaughnsoft.net/video/edge/vmn-live_ [makelist.param1]? 0.1.1.765_551-551-0.3609892260283232 </ page>                               
+<Árbitro> http://vaughnlive.tv/ </ árbitro>
+<Conexión> keep-alive </ conexión>
+<Agente> Mozilla / 5.0 </ agente>
+<Aceptar> Accept-Encoding = gzip, desinflar, text / html, application / xhtml + xml, application / xml; q = 0,9, image / webp, * / *; q = 0,8 </ aceptar>
+<CookieJar> </ CookieJar>
+</ Regex>
+
+_psn12v?
+
+
+<Regex>
+<Nombre> get_channel </ name>
+<Expres> embedSWF \ (\ "(. *?)" </ Expres>    
+<Página> http://vaughnlive.tv/ [makelist.param1] </ page>                             
+<Árbitro> http://vaughnlive.tv/ </ árbitro>
+<Conexión> keep-alive </ conexión>
+<Agente> Mozilla / 5.0 </ agente>
+<Aceptar> Accept-Encoding = gzip, desinflar, text / html, application / xhtml + xml, application / xml; q = 0,9, image / webp, * / *; q = 0,8 </ aceptar>
+<CookieJar> </ CookieJar>
+</ Regex>
+			<Miniatura> http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/ [makelist.param2] _320.jpg </ miniatura>
+]]> </ Listrepeat>
+<Expres> a href = "/(.*?)" [\ W \ W \ s] {0,22} browseTxt "> (. *?) << / Expres>
+<Página> http://vaughnlive.tv/browse/espanol </ page>
+<Agente> Mozilla / 5.0 (iPhone; U; CPU iPhone OS 4_2_1 como Mac OS X; en us-) AppleWebKit / 533.17.9 (KHTML, like Gecko) Version / 5.0.2 Mobile / 8C148 Safari / 6533.18.5 </ agente>
+<Árbitro> </ árbitro>
+<CookieJar> </ CookieJar>
+</ Regex>
+<Miniatura> http://adryanlist.org/adryan/img/247.jpg </ miniatura>
+</ Item>
+</ Item>
+
+<Item>
+		<Title> [COLOR cal] • [/ COLOR] [COLOR celeste] [B] MEXFLIX [/ B] [/ COLOR] [COLOR lightslategray] por JEE [/ color] </ title>
+		<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/mexflix.jpg </ miniatura> 
+		<ExternalLink> https://dl.dropboxusercontent.com/s/7hskheqiyrd6gj0/ARCHIVO PARA EL ADDON.xml </ externalLink>
+		</ Item>
+
+<Tem>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Música [/ COLOR] [COLOR lightslategray] (Música) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/musica.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/music.xml </ externalLink>
+</ Item>
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Paises [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/paises.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/paises.xml </ externalLink>
+</ Item>
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Internacionales [/ color] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/internacional.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/inter.xml </ externalLink>
+</ Item>
+
+
+<Item>
+<Title> [COLOR cal] • [/ COLOR] [COLOR deepskyblue] Mas Listas [/ COLOR] [COLOR lightyellow] (Añadir la listas ♦ Listas sube TUS) [/ COLOR] </ title>
+<Link> http: // ignorame </ link> <miniatura> http://adryanlist.org/adryan/img/listas.jpg </ miniatura> <fanart> http://adryanlist.org/adryan/img/fanart .jpg </ fanart>
+<ExternalLink> http://adryanlist.org/adryan/lists.xml </ externalLink>
+</ Item>
+
+
+
+
